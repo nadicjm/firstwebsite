@@ -1,0 +1,78 @@
+html, body {
+  margin:0;
+}
+
+.header {
+  background-color: black;
+  background-image: url(../images/header-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+  color: white;
+  font-family:'Reem Kufi', sans-serif;
+  font-weight: 200;
+  font-style:italic;
+  line-height:1.6;
+
+}
+
+.container {
+  width:80%;
+  margin: 0 auto;
+  text-align: center;
+  color:white;
+}
+
+.cta {
+  background-color: goldenrod;
+  text-decoration:none;
+  color: white;
+  padding: 20px;
+}
+
+.header p {
+  margin-bottom:40px;
+}
+
+.food-options ul li {
+  width: 30%;
+  margin: 0 1%;
+  display:inline-block;
+}
+
+.food-options img {
+  max-width:100%;
+  border: 3px solid goldenrod;
+}
+
+.about {  background-color: black;
+  background-image: url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+  color: white;
+  font-family:'Reem Kufi', sans-serif;
+  font-weight: 200;
+  font-style:italic;
+  line-height:1.6;
+}
+
+.quote {
+  color:black;
+  font-style:italic;
+  font-size:14px;
+}
+
+.chefname {
+  font-size:12px;
+  text-transform:uppercase;
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 40px 0;
+}
+
+/* top right bottom left. if you use padding instead of manually adjusting each in individual lines. if you only use 2 values, eg padding: 80px 40px, 80px for bottom and top, 40px for left and right*/
+/*palettable.io to find hexadecimal colors*/
